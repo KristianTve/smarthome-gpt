@@ -1,0 +1,17 @@
+# RETRIEVAL
+collection_name: "main"
+chunk_size: 1000
+chunk_overlap: 250
+n_chunks_retrieved: 10
+embedding_model_name: "text-embedding-3-small"
+embedding_api_version: "2023-05-15"
+embedding_dimension_size: 1536
+
+# DATA REPOSITORY
+pdf_folder: "data"
+
+# INFERENCE
+model_deployment: "gpt-4o"
+temperature: 0.5
+inference_api_version: "2023-03-15-preview"
+max_tokens_to_sample: 10000
